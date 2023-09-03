@@ -94,3 +94,13 @@ p {
   height: auto;
   border: 1px solid var(--primary-color);
 }
+@media (max-width: 576px) {
+  h4 {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  img {
+    display: none;
+  }
+}
