@@ -7,6 +7,11 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
 }
 
 h1,
@@ -67,6 +72,11 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .about-paragraphs {
@@ -77,7 +87,15 @@ p {
 .about-paragraphs p {
   margin: 10px;
 }
-
+.primary-link {
+  margin: 20px;
+  border: 1px solid blueviolet;
+  background-color: #63eaff;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -94,7 +112,7 @@ p {
   height: auto;
   border: 1px solid var(--primary-color);
 }
-@media (max-width: 576px) {
+@media (max-width: 376px) {
   h4 {
     text-align: center;
   }
